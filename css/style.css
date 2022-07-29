@@ -1,0 +1,36 @@
+html{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: #ddd;
+    margin: 0%;
+}
+
+.informations{
+    display: flex;
+} 
+
+.informations div {
+    margin-left: 20px;
+}
+
+table{
+    width: 100%;
+}
+
+table tr .title{
+    width: 15%;
+    color: crimson;
+}
+
+#keySkills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+table tr td{
+    padding:10px
+}
